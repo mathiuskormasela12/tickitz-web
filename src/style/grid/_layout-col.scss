@@ -1,0 +1,15 @@
+div.col:first-child {
+  width: 60%;
+  background-color: red;
+}
+
+div.col:last-child {
+  width: 40%;
+  background-color: blue;
+}
+
+@media screen and (max-width: 920px) {
+  div.col {
+    width: 100% !important;
+  }
+}

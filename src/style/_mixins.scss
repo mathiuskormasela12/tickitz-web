@@ -1,0 +1,35 @@
+@import './variable';
+
+@mixin stylingInput() {
+  @font-face {
+    font-family: my-font;
+    src: url('../assets/fonts/Mulish-Regular.ttf');
+  }
+  label {
+    color: $label-color;
+  }
+  .control {
+    line-height: 3.5;
+    margin-bottom: .5rem;
+  }
+  .control input {
+    height: 3.5rem;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+    border: none;
+    outline: none;
+    border: 1px solid $line-color;
+    font-size: 1.1rem;
+    width: 100%;
+    border-radius: 4px;
+    font-family: normal-font !important;
+  
+    &::placeholder {
+      color: $placeholder-color;
+    }
+  
+    &:focus {
+      box-shadow: 0 0 20px -12px $primary;
+    }
+  }
+}

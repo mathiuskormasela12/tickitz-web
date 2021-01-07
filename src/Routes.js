@@ -3,8 +3,8 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 // Import all views
-import Home from './views/Home';
-import Login from './views/Login';
+import Home from './views/home/Home';
+import Login from './views/login/Login';
 
 function Routes() {
   return(

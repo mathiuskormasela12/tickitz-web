@@ -1,0 +1,27 @@
+div#login {
+  height: 100vh;
+
+  img.img {
+    width: 23rem;
+  }
+
+  div.sidebarItem > p.subtitle {
+    color: $light;
+    font-size: 2rem;
+  }
+
+  .title {
+    color: $title-color;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .formSubtitle {
+    color: #AAAAAA;
+    font-size: 1.2rem;
+  }
+
+  header.header {
+    margin-bottom: 1.5rem;
+  }
+}

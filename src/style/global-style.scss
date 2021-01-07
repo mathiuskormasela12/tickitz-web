@@ -1,6 +1,12 @@
+@font-face {
+  font-family: normal-font;
+  src: url('../assets/fonts/Mulish-Regular.ttf');
+}
+
 html {
   font-size: 16px;
   background-color: white;
+  font-family: normal-font;
 }
 
 * {

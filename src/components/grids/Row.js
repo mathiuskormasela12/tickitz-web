@@ -1,6 +1,6 @@
 // Import all modules
 import React from 'react';
-import styled from '../../style/grid/row.module.scss';
+import styled from './row.module.scss';
 
 function Row(props) {
   return(

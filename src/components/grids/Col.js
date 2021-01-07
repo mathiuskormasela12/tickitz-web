@@ -1,9 +1,9 @@
 import React from 'react';
-import styled from '../../style/grid/col.module.scss'
+import styled from './col.module.scss'
 
 function Col(props) {
   return(
-    <div class={styled.col}>
+    <div className={styled.col}>
       { props.children }
     </div>
   );

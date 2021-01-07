@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from './style.module.scss';
 
-function TextField(props) {
+export function TextField(props) {
   return(
     <div className={ styled.control }>
       <label htmlFor={props.labelFor}>
@@ -14,5 +14,3 @@ function TextField(props) {
     </div>
   );
 }
-
-export default TextField;

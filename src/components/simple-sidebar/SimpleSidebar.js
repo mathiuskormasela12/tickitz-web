@@ -6,12 +6,10 @@ import styled from './style.module.scss';
 
 // Import all components
 
-function SimpleSidebar(props) {
+export function SimpleSidebar(props) {
   return(
     <div id={styled.sidebar}>
       { props.children }
     </div>
   );
 }
-
-export default SimpleSidebar;

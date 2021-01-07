@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from './style.module.scss';
 
-function PasswordField(props) {
+export function PasswordField(props) {
   return(
     <div className={ styled.control }>
       <label htmlFor={props.labelFor}>
@@ -14,5 +14,3 @@ function PasswordField(props) {
     </div>
   );
 }
-
-export default PasswordField;

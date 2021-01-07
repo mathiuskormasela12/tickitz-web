@@ -24,4 +24,50 @@ div#login {
   header.header {
     margin-bottom: 1.5rem;
   }
+
+  .tickitzMobileImg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div#login {
+    .tickitzMobileImg {
+      display: block;
+      width: 8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .title {
+      font-size: 1.8rem;
+    }
+
+    .formSubtitle {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 920px) {
+  div#login {
+    img.img {
+      width: 18rem;
+    }
+
+    div.sidebarItem > p.subtitle {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1024px) {
+  div#login {
+    img.img {
+      width: 20rem;
+    }
+
+    div.sidebarItem > p.subtitle {
+      font-size: 1.9rem;
+    }
+  }
 }

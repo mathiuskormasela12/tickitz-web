@@ -1,10 +1,7 @@
 @import './variable';
+@import './font';
 
 @mixin stylingInput() {
-  @font-face {
-    font-family: my-font;
-    src: url('../assets/fonts/Mulish-Regular.ttf');
-  }
   label {
     color: $label-color;
   }
@@ -23,13 +20,30 @@
     width: 100%;
     border-radius: 4px;
     font-family: normal-font !important;
+    transition: border .5s;
   
     &::placeholder {
       color: $placeholder-color;
     }
   
     &:focus {
-      box-shadow: 0 0 20px -12px $primary;
+      border: 1px solid $primary;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    label {
+      font-size: .9rem;
+    }
+
+    .control {
+      line-height: 2.5;
+    }
+
+    .control input {
+      height: 2.9rem;
+      padding-left: 1rem;
+      font-size: 1rem;
     }
   }
 }

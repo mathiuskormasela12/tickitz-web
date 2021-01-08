@@ -8,8 +8,10 @@ import styled from './style.module.scss';
 
 export function SimpleSidebar(props) {
   return(
-    <div id={styled.sidebar}>
-      { props.children }
-    </div>
+    <React.Fragment>
+      <div id={styled.sidebar}>
+        { props.children }
+      </div>
+    </React.Fragment>
   );
 }

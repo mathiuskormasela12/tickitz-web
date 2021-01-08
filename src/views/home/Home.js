@@ -2,9 +2,9 @@ import React from 'react';
 
 function Home() {
   return(
-    <div>
+    <React.Fragment>
       <h1>Home</h1>
-    </div>
+    </React.Fragment>
   );
 }
 
